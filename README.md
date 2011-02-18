@@ -30,7 +30,7 @@ That is, when events occur on the underlying streams, they occur on the DuplexSt
 * Pausing/Resuming the DuplexStream will pause/resume the underlying readable stream.
 * Ending the DuplexStream will end the underlying writable, readable will still be available.
 * Setting encoding on DuplexStream will set encoding on underlying readable.
-* When end event occurs on underlying readable, DuplexStream marks itself as unreadable but can still be written to (if 
+* When `end` event occurs on underlying readable, DuplexStream marks itself as unreadable but can still be written to (if it's not already been ended).
 
 ## Derp?
 
