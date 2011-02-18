@@ -20,7 +20,7 @@ Not finished just yet. Committing current work in. Should be usable very soon.
 The DuplexStream should behave exactly how you'd expect.
 
 	// Probably because of this:
-	console.log(new DuplexStream() instanceof Stream);	// -> true
+	console.log((new DuplexStream()) instanceof Stream);	// -> true
 
 That is, when events occur on the underlying streams, they occur on the DuplexStream.
  
