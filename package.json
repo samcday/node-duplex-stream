@@ -4,7 +4,7 @@
 	"description": "Composable streams. Present a distinct readable stream and a distinct writable stream as a single Stream for reading/writing.",
 	"keywords": "duplex stream, combined stream",
 	"author": "Sam Day <sam.c.day@gmail.com>",
-	"main": "./lib/duplexsteam.js",
+	"main": "./lib/duplexstream.js",
 	"engines": { "node": ">= 0.3.0" },
 	"dependencies": {
 		"vows": ">= 0.5.6",
