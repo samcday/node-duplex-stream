@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/samcday/node-duplex-stream.png)](http://travis-ci.org/samcday/node-duplex-stream)
 # Duplex Stream
 
 Composes two distinct readable and writable streams into one cohesive Stream. Why would you want to do this? I honestly have no idea. You'd have to be really stupid or something.
